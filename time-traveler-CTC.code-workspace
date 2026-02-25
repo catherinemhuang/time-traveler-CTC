@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Desktop/time-traveler-s26-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "time-traveler-CTC"
+	}
+}
