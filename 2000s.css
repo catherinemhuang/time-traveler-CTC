@@ -29,3 +29,9 @@ background-color:gray;
 .Body{
 font-size: 18px;
 }
+.Heading:hover{
+	font-size: 40px;
+}
+.Heading:active{
+	letter-spacing: 1em;
+}
