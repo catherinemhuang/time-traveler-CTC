@@ -7,29 +7,38 @@
 
 body {
 	font-family: monospace;
-	background-color: lightblue;
+background: linear-gradient(145deg, #ffffff, #82acd8);
 	padding: 10px;
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 p {
 	padding: 20px;
-	border-top: 5px solid darkblue;
+	border-radius: 12px;
+
 }
 .Title {
-font-size: 48px;
-background-color: white;
+font-size: 30px;
+background: white;
+animation: scalePulse 2s ease-in-out infinite;
+border-style: inset;
+border-width: 8px;
 }
 .Heading{
 font-size: 24px;
 background-color:gray;
+border-style: ridge;
+border-width: 5px;
 }
 .Body{
 font-size: 18px;
 }
 .Heading:hover{
 	font-size: 30px;
+	background-color: lightyellow;
+
 }
 .Body:active{
 	background-color: pink;
@@ -53,4 +62,16 @@ box-shadow: 8px 8px 0px #554a4a
 }
 .box-3d h1 {
 font-size: 24px;
+}
+
+@keyframes scalePulse{
+	0%{
+	transform: scale(1);
+	}
+	50%{
+	transform: scale(1.1);
+	}
+	100%{
+	transform: scale(1);
+	}
 }
