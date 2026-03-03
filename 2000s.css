@@ -8,6 +8,24 @@
 /* Write your CSS below (feel free to change the styles already here) */
 body {
 	font-family: monospace;
-	background-color: rgb(147, 246, 140);
+	background-color: lightblue;
 	padding: 10px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+p {
+	padding: 20px;
+	border-top: 5px solid darkblue;
+}
+.Title {
+font-size: 48px;
+background-color: white;
+}
+.Heading{
+font-size: 24px;
+background-color:gray;
+}
+.Body{
+font-size: 18px;
 }
