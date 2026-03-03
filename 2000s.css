@@ -50,15 +50,15 @@ top: 30px;
 left: 30px;
 width: 280px;
 padding: 20px;
-background: linear-gradient(145deg, #ffffff, #dcdcdc);
+background: lightgoldenrodyellow;
 border-radius: 12px;
-box-shadow: 6px 6px 0px #b5b5b5, 12px 12px 20px rgba(0, 0, 0, 0.15);
+box-shadow: 6px 6px 0px #bda350, 12px 12px 20px rgba(0, 0, 0, 0.15);
 transform: perspective(800px) rotateX(5deg) rotateY(-5deg);
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .box-3d:hover {
 transform: perspective(500px) rotateX(5deg) rotateY(5deg);
-box-shadow: 8px 8px 0px #554a4a
+box-shadow: 8px 8px 0px #000000
 }
 .box-3d h1 {
 font-size: 24px;
