@@ -20,23 +20,23 @@ p {
 
 }
 .Title {
-	font-size: 30px;
+	font-size: 20px;
 	background: white;
 	animation: scalePulse 2s ease-in-out infinite;
 	border-style: inset;
 	border-width: 8px;
 }
 .Heading{
-	font-size: 24px;
+	font-size: 16px;
 	background-color:gray;
 	border-style: ridge;
 	border-width: 5px;
 }
 .Body{
-	font-size: 18px;
+	font-size: 12px;
 }
 .Heading:hover{
-	font-size: 30px;
+	font-size: 24px;
 	background-color: lightyellow;
 
 }
@@ -45,7 +45,7 @@ p {
 }
 
 .box-3d {
-	position: fixed;
+	position: absolute;
 	top: 30px;
 	left: 30px;
 	width: 280px;
@@ -89,9 +89,20 @@ p {
 	width: 140px;      
 	height: auto;
 }
+.sticky-image2 {
+	position: absolute;   
+	right: 140px;       
+	top: 1250px;        
+	width: 180px;      
+	height: 100px;
+}
 .spin-image {
 	width: 150px;
 	height: 150px;
+}
+.spin-image2 {
+	width: 200;
+	height: 100;
 }
 
 @keyframes spin{
@@ -103,6 +114,12 @@ p {
 	}
 }
 .spin-image:hover{
+	animation-name: spin;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.spin-image2:hover{
 	animation-name: spin;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
