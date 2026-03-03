@@ -5,7 +5,6 @@
 	box-sizing: border-box; /* fix width calculation, more info here: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing */
 }
 
-/* Write your CSS below (feel free to change the styles already here) */
 body {
 	font-family: monospace;
 	background-color: lightblue;
@@ -30,8 +29,28 @@ background-color:gray;
 font-size: 18px;
 }
 .Heading:hover{
-	font-size: 40px;
+	font-size: 30px;
 }
-.Heading:active{
-	letter-spacing: 1em;
+.Body:active{
+	background-color: pink;
+}
+
+.box-3d {
+position: absolute;
+top: 30px;
+left: 30px;
+width: 280px;
+padding: 20px;
+background: linear-gradient(145deg, #ffffff, #dcdcdc);
+border-radius: 12px;
+box-shadow: 6px 6px 0px #b5b5b5, 12px 12px 20px rgba(0, 0, 0, 0.15);
+transform: perspective(800px) rotateX(5deg) rotateY(-5deg);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.box-3d:hover {
+transform: perspective(500px) rotateX(5deg) rotateY(5deg);
+box-shadow: 8px 8px 0px #554a4a
+}
+.box-3d h1 {
+font-size: 24px;
 }
